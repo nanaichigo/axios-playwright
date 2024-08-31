@@ -13,7 +13,7 @@ def login():
         if password == "password":
             return "Success", 200
         else:
-            return "Falied", 401
+            return "Failed", 401
     else:
         return "Failed", 403
 
